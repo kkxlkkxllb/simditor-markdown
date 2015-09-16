@@ -68,6 +68,8 @@ class SimditorMarkdown extends Simditor.Button
 
   _convert: ->
     text = @textarea.val()
+    text = text.replace /<equation>((.*?\n)*?.*?)<\/equation>/ig, (a, b) ->
+      '<img src="http://latex.codecogs.com/png.latex?' + encodeURIComponent(b) + '" />'
     @editor.setValue marked(text)
 
   _fileterUnsupportedTags: ->
