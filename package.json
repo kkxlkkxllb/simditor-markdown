@@ -1,16 +1,16 @@
 {
-  "name": "simditor-markdown",
+  "name": "simditor-markdown-veg",
   "description": "Add markdown editing mode for simditor.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "lib/simditor-markdown.js",
-  "homepage": "https://github.com/farthinker/simditor-markdown",
+  "homepage": "https://github.com/kkxlkkxllb/simditor-markdown",
   "author": {
-    "name": "farthinker",
-    "email": "farthinker@gmail.com"
+    "name": "veggie",
+    "email": "kkxlkkxllb@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/farthinker/simditor-markdown.git"
+    "url": "git://github.com/kkxlkkxllb/simditor-markdown.git"
   },
   "bugs": {
     "url": "https://github.com/farthinker/simditor-markdown/issues"
